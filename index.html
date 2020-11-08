@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Software Solution</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/cjs/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <!-- referencing md as the breakpoint where the medium screen is at 768px and up, and navbar-light and bg-light is the navigation 
+        background and dark navigation text and the sticky-top is as supposed as there is a sticky navigation -->
+        <div class="container-fluid">
+            <!-- container-fluid as it contains 100% of the screen -->
+            <a href="#" class="navbar-brand">
+                <img src="img/Rebirth_logo_main.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <!-- navbar-toggler basically a toggle switch, data-toggle because the nav would be collapsing and data-target referencing to the id below -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto"> 
+                <!-- ml-auto is going to push off the navigation to the right hand side once it exceeds the breakpoint 'md' -->
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="summa.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="faq.html" class="nav-link">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <!-- indicators that shows on the slides of an image -->
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img name= "slide" width="100%">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Stay Safe</h1>
+                        <!-- display>> font-size, decreases as number increments -->
+                        <h3>Stay Home Stay Safe.</h3>
+                        <button type="button" class="btn btn-outline-light btn-lg">Subscribe</button>
+                        <a href="#service">
+                            <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/assisstance.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/medic.jpg">
+                </div>
+            </div>
+    </div>
+    <!-- image slider two -->
+    <!-- <div id="slideshow" class="carousel" data-ride="carousel">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <div class="slide">
+                <img src="img/dribble1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/assisstance.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/medic.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+        </div>
+    </div> -->
+
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <!-- col-xs-12/col-sm-12>> this rep that paragraph would take 12 grid column for xtrasmall screen
+            and small screen, col-md-9 while at medium screen it would take 9 grid column -->
+                <p class="lead">During this time, it's important that you support and take care of your family's 
+                mental health- there are lots of things that you can do, and additional support is available if you need it.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="https://chat.whatsapp.com/ETZB5CY7rygK8Uk9qQl49q">
+                    <button type="button" class="btn btn-outline-secondary btn-lg">Get Live Updates</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Three Column Section -->
+    <div class="blue-container padding">
+        <div class="container-fluid">
+            <div class="row welcome text-center">
+                <!-- the property or attribute for this class is placing the class name to the center -->
+                <div class="col-12">
+                    <h1 class="display-4">SERVICES</h1>
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <p class="lead">Prevent Coronavirus: Wash hands regularly, use Sanitizers, Avoid crowds and handshakes or contact.</p>
+                </div>
+            </div>
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <a href="#" id= "services">
+                        <img src="img/diag.PNG" alt="">
+                        <h3>Diagnosis</h3>
+                    </a>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <a href="https://chat.whatsapp.com/ETZB5CY7rygK8Uk9qQl49q" id= "services">
+                        <img src="img/heart.png" alt="">
+                        <h3>Get Results</h3>
+                    </a>
+                </div>
+
+                <div class="col-md-12 col-lg-4">
+                    <a href="https://chat.whatsapp.com/ETZB5CY7rygK8Uk9qQl49q" id= "services">
+                        <img src="img/help.PNG" alt="">
+                        <h3>Get Help</h3>
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- Two column Section -->
+    <div id="trends">
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-lg-6">
+                    <h2>21 Day Work-Out Quarantine Challenge</h2>
+                    <p>This is a 3 week workout challenge that targets your whole body and can be done completely from home.</p>
+                    <p>Most of these workouts are only body weight, but there are a few where a resistance band is optional.</p>
+                    <p>Bookmark this page and leave it open as a tab on your computer/phone so you don't forget! You can also print this page out and mark off each video for the ultimate satisfaction</p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/workout.jpg" class="img-fluid" alt="">
+                </div>
+                <br>
+                <div class="col-lg-6">
+                    <img src="img/check-up.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Feeling a little uncomfortable?</h2>
+                    <p>Don't resist on calling your doctor, your health matters the most</p>
+                    <p>You can as well check our website for your symptoms, endeavor to call for further assistance if health issue is at risk</p>
+                    <p>Bookmark this page and leave it open as a tab on your computer/phone so you don't forget! You can also print this page out and mark off each video for the ultimate satisfaction</p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+    <!-- Fixed image Bg -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+            </div>
+        </div>
+    </figure>
+
+    <!-- Emoji Section -->
+    <button class="fun" data-toggle="collapse" data-target="#emoji">Click to know more</button>
+    <div id="emoji" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/naughty.gif">
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="img/gif/laughing.gif">
+                </div>
+
+                <div class="col-sm-6 col-md-3">
+                    <img class="gif" src="...img/gif/chicken.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Meet The Team -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <!-- the property or attribute for this class is placing the class name to the center -->
+            <div class="col-12">
+                <h1 class="display-4">Meet the Team</h1>
+                <hr class="my-4">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Card Section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/Doctor2.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Doctor 1</h4>
+                        <p class="card-text"></p>
+                        <a href="http://wa.me/+919600922594" class="btn btn-outline-secondary">click to chat</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/Doctor1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Doctor2</h4>
+                        <p class="card-text"></p>
+                        <a href="http://wa.me/+919600922594" class="btn btn-outline-secondary">click to chat</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/Doctor2.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Doctor 3</h4>
+                        <p class="card-text"></p>
+                        <a hresf="http://wa.me/+919600922594" class="btn btn-outline-secondary">click to chat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    
+    <!-- Connect -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+
+            <div class="col-12 socials padding">
+                <a href="https://www.facebook.com/vethanathan.vk"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/vethanathanvk"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/vethanathan/"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/Vethanathan"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vethanathan-v-k-061908197/"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-md-4">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/Rebirth_logo_main_white.png" alt="">
+                    </a>
+                    <hr class="light">
+                    <p><a href="#"> +91 9600922594</a></p>
+                    <p>Vethanathanvk@gmail.com</p>
+                    <p>Tamilnadu, State</p>
+                    <p>India</p>
+                </div>
+
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our hours</h5>
+                    <hr class="light">
+                    <p>Mon - Fri: 12am - 6am</p>
+                    <p>Sat - Sunday: 6pm - 12am</p>
+                </div>
+
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Donate to Us</h5>
+                    <hr class="light">
+                    <p>GTBank: 0231150137</p>
+                    <p>Patreon: </p>
+                </div>
+
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; E-commerse.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
