@@ -1,4 +1,4 @@
-# e-Health-Software-solution
+# e-Healthcare
 The use of websites, web applications and mobile applications for healthcare has become a focal point of innovation that could aid patients in their everyday healthcare management. 
 
 This project can contribute to increasing the effectiveness and reducing the costs of healthcare delivery as well as preventing illness through behaviour changes
