@@ -1,12 +1,26 @@
-# e-Healthcare
-The use of websites, web applications and mobile applications for healthcare has become a focal point of innovation that could aid patients in their everyday healthcare management. 
+# E-Healthcare
 
-This project can contribute to increasing the effectiveness and reducing the costs of healthcare delivery as well as preventing illness through behaviour changes
+E-Healthcare is a web application that provides healthcare services to users. The application was developed using HTML, CSS, and JavaScript.
 
-This model provides an interactive and responsive application that facilitates the needs between patients and the healthcare system.
+## Description
 
-This proposed model will provide optimal communication to several parties in the healthcare sector.
+This is a simple web page that displays information about doctors.
 
-The software development methodologies adopted was Object-Oriented design, data-oriented design and Cloud computing.
+## Installation
 
-The technologies used for this projects are HTML, CSS, JAVASCRIPT, BOOTSTRAP, JQUERY, AJAX for the FrontEnd; while PHP, ANGULA JS, and MYSQL powered by the BackEnd.
+1. Clone the repository.
+2. Open the `index.html` file in your browser.
+
+## Usage
+
+1. Open the `index.html` file in your browser.
+2. View the information about doctors.
+
+## Contributing
+
+Contributions are welcome! Please refer to the [contributing guidelines] for more information.
+
+## License
+
+This project is licensed under the [MIT License].
+
